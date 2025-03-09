@@ -8,13 +8,13 @@ const HeroSection = () => {
 
       {/* Second Line: "what" + Line + "we do" */}
       <div className="flex items-center w-full mt-2">
-        <h1 className="text-8xl font-light whitespace-nowrap">what</h1>
-        <div className="border-t border-white flex-grow mt-4 mx-6"></div>
+        <h1 className="text-8xl font-light whitespace-nowrap md:mr-0 mr-8">what</h1>
+        <div className="hidden md:block md:border-t border-white flex-grow mt-4 mx-6"></div>
         <h1 className="text-8xl font-light whitespace-nowrap">we do</h1>
       </div>
 
       {/* Third Line */}
-      <h1 className="text-8xl font-light self-end mt-2">best</h1>
+      <h1 className="text-8xl font-light self-start md:self-end mt-2">best</h1>
     </div>
   );
 };
