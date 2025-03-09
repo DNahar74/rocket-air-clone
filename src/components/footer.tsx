@@ -44,11 +44,11 @@ const Footer = () => {
         </div>
         
         {/* Right section - Navigation */}
-        <div className="w-full border-l pb-0">
+        <div className="w-full md:border-l pb-0">
           <nav className="flex flex-col">
             <Link 
               href="/work" 
-              className="py-6 px-8 text-4xl border-b relative overflow-hidden group"
+              className="py-6 px-8 text-4xl border-b border-t md:border-t-0 relative overflow-hidden group"
             >
               <span className="relative z-10 transition-colors duration-250 group-hover:text-black">
                 Work
